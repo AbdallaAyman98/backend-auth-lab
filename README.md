@@ -150,8 +150,6 @@ CREATE TABLE users (
 ```sql
 CREATE INDEX idx_users_email       ON users(email);
 CREATE INDEX idx_users_username    ON users(username);
-CREATE INDEX idx_users_is_verified ON users(is_verified);
-CREATE INDEX idx_users_deleted_at  ON users(deleted_at);
 ```
 
 ---
