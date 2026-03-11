@@ -431,6 +431,6 @@ blacklist:{accessToken}  → "revoked"               TTL: remaining access token
 
 ## Notes
 
-- `RETURNING *` is PostgreSQL syntax — not supported in MySQL. This project uses `Statement.RETURN_GENERATED_KEYS` + a follow-up `findById()` call after every insert.
+- `RETURNING *` is PostgreSQL syntax, not supported in MySQL. This project uses `Statement.RETURN_GENERATED_KEYS` + a follow-up `findById()` call after every insert.
 - Email verification is not yet implemented. `is_verified` defaults to `FALSE`. To test login, manually verify a user: `UPDATE users SET is_verified = TRUE WHERE email = 'your@email.com';`
 - No dependency injection framework — all wiring is done by hand in `ServerSetup.java`.
