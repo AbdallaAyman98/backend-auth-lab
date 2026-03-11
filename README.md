@@ -312,9 +312,9 @@ Authorization: Bearer <accessToken>
 ### Check Availability
 
 ```
-GET /api/v1/check-availability?email=john@gmail.com
-GET /api/v1/check-availability?username=johndoe
-GET /api/v1/check-availability?email=john@gmail.com&username=johndoe
+GET /api/v1/users/check-availability?email=john@gmail.com
+GET /api/v1/users/check-availability?username=johndoe
+GET /api/v1/users/check-availability?email=john@gmail.com&username=johndoe
 ```
 
 **Responses:**
