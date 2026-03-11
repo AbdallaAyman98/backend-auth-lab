@@ -1,6 +1,6 @@
 # Java Auth Backend
 
-A production-style authentication backend built from scratch in raw Java — no Spring, no frameworks. Built to understand how auth systems actually work under the hood.
+A production-style authentication backend built from scratch in raw Java no Spring, no frameworks. Built to understand how auth systems actually work under the hood.
 
 ---
 
