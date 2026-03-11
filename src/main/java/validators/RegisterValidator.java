@@ -1,8 +1,6 @@
-package register;
+package validators;
 
-import records.RegisterDto;
-import utilities.FieldValidator;
-import utilities.ValidationResult;
+import dtos.RegisterDto;
 
 import java.util.ArrayList;
 import java.util.List;

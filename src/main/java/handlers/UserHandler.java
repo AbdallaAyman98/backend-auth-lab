@@ -1,18 +1,16 @@
-package users;
+package handlers;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import enums.HttpMethod;
-import enums.HttpStatus;
 import exceptions.DuplicateUserException;
 import exceptions.FieldValidationException;
+import services.UserService;
 import utilities.Logger;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.sql.SQLException;
-import java.sql.SQLOutput;
 import java.util.stream.Collectors;
 
 public class UserHandler implements HttpHandler {

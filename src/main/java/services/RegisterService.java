@@ -1,9 +1,9 @@
-package register;
+package services;
 import java.sql.SQLException;
 import java.time.LocalDate;
 
 import exceptions.DuplicateUserException;
-import records.RegisterDto;
+import dtos.RegisterDto;
 import records.User;
 import repositories.UserRepository;
 import utilities.PasswordHasherUtil;

@@ -1,7 +1,7 @@
-package login;
+package validators;
 
-import utilities.FieldValidator;
-import utilities.ValidationResult;
+import dtos.LoginDto;
+
 import java.util.ArrayList;
 import java.util.List;
 

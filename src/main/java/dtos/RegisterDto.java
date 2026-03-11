@@ -1,4 +1,4 @@
-package records;
+package dtos;
 
 public record RegisterDto(
         // 1. Basic Identity

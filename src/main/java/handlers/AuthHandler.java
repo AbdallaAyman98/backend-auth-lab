@@ -1,5 +1,6 @@
-package authentication;
+package handlers;
 
+import services.AuthService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
@@ -9,8 +10,8 @@ import exceptions.FieldValidationException;
 import exceptions.InexistentUserException;
 import exceptions.UnauthorizedException;
 import exceptions.UnverifiedUserException;
-import login.LoginDto;
-import login.LoginResponseDto;
+import dtos.LoginDto;
+import dtos.LoginResponseDto;
 import utilities.Logger;
 
 import java.io.IOException;
@@ -19,7 +20,7 @@ import java.util.stream.Collectors;
 
 public class AuthHandler implements HttpHandler {
 
-    private final AuthService  authService;
+    private final AuthService authService;
     private final ObjectMapper objectMapper = new ObjectMapper();
 
     public AuthHandler(AuthService authService) {

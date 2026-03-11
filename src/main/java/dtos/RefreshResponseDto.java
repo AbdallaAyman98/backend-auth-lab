@@ -1,8 +1,7 @@
-package login;
+package dtos;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public record LoginResponseDto(
-        @JsonProperty("accessToken")  String accessToken,
+public record RefreshResponseDto(
         @JsonProperty("refreshToken") String refreshToken
 ) {}

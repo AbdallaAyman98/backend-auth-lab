@@ -1,4 +1,4 @@
-package utilities;
+package validators;
 
 import exceptions.FieldValidationException;
 

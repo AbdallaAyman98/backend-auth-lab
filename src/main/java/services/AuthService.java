@@ -1,11 +1,12 @@
-package authentication;
+package services;
 
+import dtos.RefreshResponseDto;
 import exceptions.InexistentUserException;
 import exceptions.UnauthorizedException;
 import exceptions.UnverifiedUserException;
-import login.LoginDto;
-import login.LoginResponseDto;
-import login.LoginValidator;
+import dtos.LoginDto;
+import dtos.LoginResponseDto;
+import validators.LoginValidator;
 import records.User;
 import repositories.UserRepository;
 import utilities.PasswordHasherUtil;

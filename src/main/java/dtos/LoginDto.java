@@ -1,4 +1,4 @@
-package login;
+package dtos;
 
 public record LoginDto (
 

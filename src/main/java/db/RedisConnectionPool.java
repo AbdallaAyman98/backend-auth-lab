@@ -1,4 +1,4 @@
-package authentication;
+package db;
 
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;

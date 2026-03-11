@@ -1,4 +1,4 @@
-package register;
+package handlers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sun.net.httpserver.HttpExchange;
@@ -6,7 +6,9 @@ import com.sun.net.httpserver.HttpHandler;
 import enums.HttpMethod;
 import exceptions.DuplicateUserException;
 import exceptions.FieldValidationException;
-import records.RegisterDto;
+import dtos.RegisterDto;
+import services.RegisterService;
+import validators.RegisterValidator;
 import utilities.Logger;
 
 import java.io.IOException;

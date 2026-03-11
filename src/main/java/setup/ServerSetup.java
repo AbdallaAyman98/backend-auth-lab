@@ -1,13 +1,18 @@
 package setup;
 
-import authentication.*;
 import db.DBConnectionPool;
+import db.RedisConnectionPool;
+import handlers.AuthHandler;
+import handlers.LogoutHandler;
 import redis.clients.jedis.JedisPool;
-import register.RegisterHandler;
-import register.RegisterService;
+import handlers.RegisterHandler;
+import services.RegisterService;
+import repositories.RedisRepository;
 import repositories.UserRepository;
-import users.UserHandler;
-import users.UserService;
+import services.AuthService;
+import services.TokenService;
+import handlers.UserHandler;
+import services.UserService;
 import utilities.PortUtil;
 
 import javax.sql.DataSource;

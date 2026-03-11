@@ -1,6 +1,5 @@
 package repositories;
 
-import com.mysql.cj.log.Log;
 import records.User;
 import utilities.Logger;
 

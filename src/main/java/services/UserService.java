@@ -1,8 +1,8 @@
-package users;
+package services;
 
 import exceptions.DuplicateUserException;
 import exceptions.FieldValidationException;
-import utilities.FieldValidator;
+import validators.FieldValidator;
 import repositories.UserRepository;
 
 import java.sql.SQLException;

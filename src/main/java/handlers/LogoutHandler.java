@@ -1,5 +1,7 @@
-package authentication;
+package handlers;
 
+import services.AuthService;
+import services.TokenService;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.auth0.jwt.interfaces.DecodedJWT;
@@ -13,7 +15,7 @@ import java.nio.charset.StandardCharsets;
 
 public class LogoutHandler implements HttpHandler {
 
-    private final AuthService  authService;
+    private final AuthService authService;
     private final TokenService tokenService;
 
     public LogoutHandler(AuthService authService, TokenService tokenService) {
