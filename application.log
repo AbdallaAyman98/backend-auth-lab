@@ -419,8 +419,8 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 2026-03-11 03:48:48.670 [INFO] [pool-1-thread-1] (handlers.UserHandler:39) - Query params received: email: null, username: null
 2026-03-11 03:48:53.256 [INFO] [pool-1-thread-2] (handlers.UserHandler:39) - Query params received: email: null, username: null
 2026-03-11 03:50:01.795 [ERROR] [pool-1-thread-4] (LoginHandler:75) - Unexpected error during login
-com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginDto), not marked as ignorable (2 known properties: "password", "email"])
- at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginDto["username"])
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginRequestDto), not marked as ignorable (2 known properties: "password", "email"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginRequestDto["username"])
 	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
 	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1153)
 	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
@@ -448,8 +448,8 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 
 2026-03-11 03:50:06.202 [ERROR] [pool-1-thread-5] (LoginHandler:75) - Unexpected error during login
-com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginDto), not marked as ignorable (2 known properties: "password", "email"])
- at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginDto["username"])
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginRequestDto), not marked as ignorable (2 known properties: "password", "email"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginRequestDto["username"])
 	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
 	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1153)
 	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
@@ -477,8 +477,8 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 
 2026-03-11 03:50:33.481 [ERROR] [pool-1-thread-6] (LoginHandler:75) - Unexpected error during login
-com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginDto), not marked as ignorable (2 known properties: "password", "email"])
- at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginDto["username"])
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginRequestDto), not marked as ignorable (2 known properties: "password", "email"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginRequestDto["username"])
 	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
 	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1153)
 	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
@@ -506,8 +506,8 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 
 2026-03-11 03:50:41.643 [ERROR] [pool-1-thread-7] (LoginHandler:75) - Unexpected error during login
-com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginDto), not marked as ignorable (2 known properties: "password", "email"])
- at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginDto["username"])
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginRequestDto), not marked as ignorable (2 known properties: "password", "email"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginRequestDto["username"])
 	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
 	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1153)
 	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
@@ -535,8 +535,8 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 
 2026-03-11 03:51:03.558 [ERROR] [pool-1-thread-8] (LoginHandler:75) - Unexpected error during login
-com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginDto), not marked as ignorable (2 known properties: "password", "email"])
- at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginDto["username"])
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginRequestDto), not marked as ignorable (2 known properties: "password", "email"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginRequestDto["username"])
 	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
 	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1153)
 	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
@@ -564,8 +564,8 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 
 2026-03-11 03:51:06.627 [ERROR] [pool-1-thread-9] (LoginHandler:75) - Unexpected error during login
-com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginDto), not marked as ignorable (2 known properties: "password", "email"])
- at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginDto["username"])
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginRequestDto), not marked as ignorable (2 known properties: "password", "email"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginRequestDto["username"])
 	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
 	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1153)
 	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
@@ -593,8 +593,8 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 
 2026-03-11 03:51:07.465 [ERROR] [pool-1-thread-10] (LoginHandler:75) - Unexpected error during login
-com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginDto), not marked as ignorable (2 known properties: "password", "email"])
- at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginDto["username"])
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginRequestDto), not marked as ignorable (2 known properties: "password", "email"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginRequestDto["username"])
 	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
 	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1153)
 	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
@@ -622,8 +622,8 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 
 2026-03-11 03:51:08.162 [ERROR] [pool-1-thread-1] (LoginHandler:75) - Unexpected error during login
-com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginDto), not marked as ignorable (2 known properties: "password", "email"])
- at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginDto["username"])
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginRequestDto), not marked as ignorable (2 known properties: "password", "email"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginRequestDto["username"])
 	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
 	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1153)
 	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
@@ -651,8 +651,8 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 
 2026-03-11 03:51:08.642 [ERROR] [pool-1-thread-2] (LoginHandler:75) - Unexpected error during login
-com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginDto), not marked as ignorable (2 known properties: "password", "email"])
- at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginDto["username"])
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginRequestDto), not marked as ignorable (2 known properties: "password", "email"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginRequestDto["username"])
 	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
 	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1153)
 	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
@@ -680,8 +680,8 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 
 2026-03-11 03:51:35.579 [ERROR] [pool-1-thread-3] (LoginHandler:75) - Unexpected error during login
-com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginDto), not marked as ignorable (2 known properties: "password", "email"])
- at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginDto["username"])
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "username" (class dtos.LoginRequestDto), not marked as ignorable (2 known properties: "password", "email"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 3, column: 2] (through reference chain: dtos.LoginRequestDto["username"])
 	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
 	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1153)
 	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
@@ -1154,3 +1154,5 @@ java.lang.IllegalStateException: JWT_SECRET env variable not set
 2026-03-11 09:39:50.206 [INFO] [pool-1-thread-3] (handlers.UserHandler:39) - Query params received: email: abdalla.agamy@hotmail.com, username: null
 2026-03-11 09:39:51.438 [INFO] [pool-1-thread-4] (handlers.UserHandler:39) - Query params received: email: abdalla.agamy@hotmail.com, username: null
 2026-03-11 09:39:56.999 [INFO] [pool-1-thread-5] (handlers.UserHandler:39) - Query params received: email: null, username: johndoeeee
+2026-03-11 10:48:44.318 [INFO] [pool-1-thread-1] (handlers.AuthHandler:57) - Login attempt: [john.doe@gmail.com]
+2026-03-11 10:48:44.400 [INFO] [pool-1-thread-1] (repositories.UserRepository:91) - findByEmail -> Optional[User[id=2, username=johndoe, firstName=John, lastName=Doe, email=john.doe@gmail.com, passwordHash=$argon2id$v=19$m=65536,t=3,p=2$9RSFn9zMFa3lswk8WqWZ4g$ae3WiqjGonYK3BOrUDVEYfRs7m/FYO1rU4CzzbLL08I, phoneNumber=+1234567890, dateOfBirth=1990-05-15, gender=male, profilePictureUrl=null, country=USA, city=New York, streetAddress=123 Main St, postalCode=10001, acceptedTerms=true, acceptedPrivacyPolicy=true, isVerified=true, createdAt=2026-03-11T09:08:45, updatedAt=2026-03-11T09:10:10]]

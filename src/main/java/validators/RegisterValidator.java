@@ -1,6 +1,6 @@
 package validators;
 
-import dtos.RegisterDto;
+import dtos.RegisterRequestDto;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ public class RegisterValidator {
 
     private RegisterValidator() {}
 
-    public static ValidationResult validate(RegisterDto dto) {
+    public static ValidationResult validate(RegisterRequestDto dto) {
         List<String> errors = new ArrayList<>();
 
         FieldValidator.validateUsername(dto.username(), errors);

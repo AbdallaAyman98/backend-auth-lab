@@ -1,21 +1,6 @@
 package dtos;
 
-public record LoginDto (
-
-
-
-
-
-
+public record LoginRequestDto(
         String email,
         String password
-
-
-
-
-
-
-
-
-
 ){}

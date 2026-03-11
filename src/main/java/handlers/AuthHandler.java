@@ -1,5 +1,6 @@
 package handlers;
 
+import dtos.LoginRequestDto;
 import services.AuthService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sun.net.httpserver.HttpExchange;
@@ -10,7 +11,6 @@ import exceptions.FieldValidationException;
 import exceptions.InexistentUserException;
 import exceptions.UnauthorizedException;
 import exceptions.UnverifiedUserException;
-import dtos.LoginDto;
 import dtos.LoginResponseDto;
 import utilities.Logger;
 
@@ -51,7 +51,7 @@ public class AuthHandler implements HttpHandler {
             }
 
             // 3. parse JSON → DTO
-            LoginDto dto = objectMapper.readValue(body, LoginDto.class);
+            LoginRequestDto dto = objectMapper.readValue(body, LoginRequestDto.class);
 
             // ✅ log email only — never log passwords
             Logger.info("Login attempt: [" + dto.email() + "]");

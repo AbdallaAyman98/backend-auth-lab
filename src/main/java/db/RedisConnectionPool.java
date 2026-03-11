@@ -18,11 +18,11 @@ public class RedisConnectionPool {
 
             pool = new JedisPool(
                     config,
-                    "redis-14829.c281.us-east-1-2.ec2.cloud.redislabs.com",
+                    ".ec2.cloud.redislabs.com",
                     14829,
                     2000,
                     "default",
-                    "rIsWC3wQ4xrJXLPolxLtIB6OZpoG1ak0"
+                    "YourPassword"
             );
         }
         return pool;

@@ -3,7 +3,7 @@ import java.sql.SQLException;
 import java.time.LocalDate;
 
 import exceptions.DuplicateUserException;
-import dtos.RegisterDto;
+import dtos.RegisterRequestDto;
 import records.User;
 import repositories.UserRepository;
 import utilities.PasswordHasherUtil;
@@ -16,7 +16,7 @@ public class RegisterService {
         this.userRepository = userRepository;
     }
 
-    public User register(RegisterDto dto) throws SQLException {
+    public User register(RegisterRequestDto dto) throws SQLException {
 
         if (userRepository.existsByEmail(dto.email())) {
             throw new DuplicateUserException("Email already registered");

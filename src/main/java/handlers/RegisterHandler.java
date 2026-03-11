@@ -6,7 +6,7 @@ import com.sun.net.httpserver.HttpHandler;
 import enums.HttpMethod;
 import exceptions.DuplicateUserException;
 import exceptions.FieldValidationException;
-import dtos.RegisterDto;
+import dtos.RegisterRequestDto;
 import services.RegisterService;
 import validators.RegisterValidator;
 import utilities.Logger;
@@ -40,7 +40,7 @@ public class RegisterHandler implements HttpHandler {
             );
 
             // 1. parse
-            RegisterDto dto = objectMapper.readValue(strReqJsonBody, RegisterDto.class);
+            RegisterRequestDto dto = objectMapper.readValue(strReqJsonBody, RegisterRequestDto.class);
 
             // 2. validate — throws FieldValidationException if invalid
             RegisterValidator.validate(dto).throwIfInvalid();

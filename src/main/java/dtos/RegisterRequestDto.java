@@ -1,6 +1,6 @@
 package dtos;
 
-public record RegisterDto(
+public record RegisterRequestDto(
         // 1. Basic Identity
         String firstName,
         String lastName,

@@ -1,10 +1,10 @@
 package services;
 
+import dtos.LoginRequestDto;
 import dtos.RefreshResponseDto;
 import exceptions.InexistentUserException;
 import exceptions.UnauthorizedException;
 import exceptions.UnverifiedUserException;
-import dtos.LoginDto;
 import dtos.LoginResponseDto;
 import validators.LoginValidator;
 import records.User;
@@ -24,7 +24,7 @@ public class AuthService {
     }
 
     // ── login ─────────────────────────────────────────────────
-    public LoginResponseDto login(LoginDto dto) throws SQLException {
+    public LoginResponseDto login(LoginRequestDto dto) throws SQLException {
 
         LoginValidator.validate(dto).throwIfInvalid();
 

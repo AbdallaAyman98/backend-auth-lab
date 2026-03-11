@@ -1,6 +1,6 @@
 package validators;
 
-import dtos.LoginDto;
+import dtos.LoginRequestDto;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ public class LoginValidator {
 
     private LoginValidator() {}
 
-    public static ValidationResult validate(LoginDto dto) {
+    public static ValidationResult validate(LoginRequestDto dto) {
         List<String> errors = new ArrayList<>();
 
         FieldValidator.validateEmail(dto.email(), errors);
